@@ -131,7 +131,7 @@ hr {
 
 .header {
   width: 720px;
-  padding: 50px 0 140px 0;
+  padding: 50px 0 0px 0;
   margin: 0 auto;
   background-size: cover;
 }
@@ -482,9 +482,9 @@ hr {
 
 .markdown pre,
 .markdown code {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.9em;
-  background: #f8fafc;
+  font-family: Consolas,Monaco,Menlo,monospace;
+  font-size: 1.0em;
+  background: #f8f5ec;
   border: none;
   white-space: pre;
 }
@@ -566,8 +566,7 @@ hr {
 .markdown b,
 .markdown em {
   padding: 1px 2px;
-  background-color: #fcfcf0;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .markdown .fancybox {
